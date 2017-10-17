@@ -1,0 +1,10 @@
+{
+    "name": "BRXBT",
+    "version": "0.1.0",
+    "description": "Documentação de uso da API BRXBT",
+    "title": "API BRXBT",
+    "header": {
+        "title": "Legendas",
+        "filename": "header.md"
+    }
+}
