@@ -5,7 +5,7 @@ API de consulta de índice e dados consolidados das exchanges.
 - Nodejs >= 6.11
 
 ## Acesso a documentação
-Toda a documentação da API se encontra no diretório `docs` no formato HTML. Caso não tenha nenhum servidor de arquivos estáticos instalados poderá instalar o `http-server`. [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)
+Toda a documentação da API se encontra no diretório `docs` no formato HTML. Caso não tenha nenhum servidor de arquivos estáticos instalado poderá instalar o `http-server`. [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)
 
 ## Como executar
 Clone o reposítório. Dentro do diretório, rode o comando `npm install`.
