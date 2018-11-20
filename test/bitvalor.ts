@@ -22,14 +22,14 @@ describe('BitValor', () => {
                 });
         });
 
-        it('Deve retornar ordens da FoxBit', (done) => {
+        it('Deve retornar ordens da Negocie Coins', (done) => {
             Chai.request(server)
-                .get('/api/bitvalor?exchange=FOX')
+                .get('/api/bitvalor?exchange=NEG')
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('array');
 
-                    Chai.expect(res.body[0].exchange).to.equal('FOX');
+                    Chai.expect(res.body[0].exchange).to.equal('NEG');
 
                     done();
                 });
